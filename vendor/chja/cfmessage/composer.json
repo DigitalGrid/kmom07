@@ -1,0 +1,19 @@
+{
+    "name": "chja/cfmessage",    
+    "type": "library",
+    "description": "Class for flash messages",
+    "keywords": ["message", "flash"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christofer Jadelius",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Chja\\": "src/" }
+    }
+}

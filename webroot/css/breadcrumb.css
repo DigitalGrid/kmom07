@@ -1,0 +1,27 @@
+/** --------------------------------------------------------------
+ * Breadcrumb
+ */
+ul.breadcrumb {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 22px 0;
+}
+ 
+ul.breadcrumb li {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+ 
+ul.breadcrumb a {
+	font-size: 0.85em;
+	border: 0px solid transparent;
+	color: #64A945;
+    text-decoration:none;
+}
+ 
+ul.breadcrumb a:hover {
+	color: #CCCCCC;  
+	text-decoration:none;
+}
+

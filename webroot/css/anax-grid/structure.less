@@ -1,0 +1,181 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+
+
+
+#wrap-featured,
+#wrap-main,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+	margin-bottom:22px;
+}
+
+#header,
+#navbar,
+#flash,
+#footer {
+    .column(@columns);
+	margin-bottom:22px;
+	/*margin: 0 10px 22px 10px;
+	width:940px;*/
+}
+
+#main {
+    .column(@columns / 3 * 2);
+	margin-bottom:0px;
+}
+ 
+#sidebar {
+    .column(@columns / 3);
+	margin-bottom:0px;
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    .column(@columns / 3);
+	/*margin: 0 10px 0px 10px;
+	width: 300px;*/
+	
+}
+ 
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4 {
+    .column(@columns / 4);
+	/*margin: 0 10px 0px 10px;
+	width: 220px;*/
+}
+
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  /*.clearfix(); */
+  margin: 0 auto;
+  width: 960px;
+  max-width: 960px;
+  padding: 0px;
+  /*background-image: url(../../img/grid_12_60_20.png);*/
+
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 44px;
+}
+
+
+/*#header {
+  position: relative;
+  margin-bottom: 44px; 
+  background-image: url("../img/headImg01.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 980px 250px;
+  padding-bottom:20px;
+}*/
+ 
+.sitetitle {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  font-style: italic;
+  color: #666;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 44px;
+  border-top: 0px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+
+/**
+ * For byline
+ */
+.byline p {
+  margin-top: 0;
+}
+
+/**
+ * For articles
+ *
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+ 
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}*/
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+

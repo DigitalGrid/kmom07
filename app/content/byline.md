@@ -1,0 +1,1 @@
+Christofer Jadelius, student på kursen OOPHP på Blekinge tekniska högskola

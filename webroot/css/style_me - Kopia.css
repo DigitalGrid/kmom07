@@ -1,0 +1,162 @@
+@import url(figure.css);
+@import url(links.css);
+@import url(comments.css);
+@import url(table.css);
+
+html,body{margin:0;padding:0;} /* Common margin & padding for all browsers */
+html{overflow-y:scroll;} /* Always display the scrollbar, avoid flipping pages */
+
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+    border-bottom: 1px solid #CCC;
+    text-transform: uppercase;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+img {border:0;} /* No border around linked images */
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 960px; 
+  padding: 0px;
+  
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 0px; 
+  background-image: url("../img/headImg01.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 960px 250px;
+  padding-bottom:20px;
+}
+ 
+.sitetitle {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  font-style: italic;
+  color: #666;
+}
+ 
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+#main p, h4 {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+ 
+ 
+/**
+ * Layout for footer -------------------------------------
+ */
+#footer {
+  margin-top: 10px;
+  border: 1px solid #CCCCCC;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: smaller;
+  font-style:italic;
+  margin-left:0px;
+  background: #333333;
+}
+
+ 
+.sitefooter {
+  color: #DDDDDD;
+  margin-left:20px;
+}
+
+.byline {
+    clear: both;
+	border-top: 1px dashed #999999;
+	margin-top:7em;
+	padding-top: 0.5em;
+	color: #555555;
+	font-size: smaller;
+	font-style:italic;
+}
+
+.byline p {
+	position: relative;
+	margin-top:30px;
+	left: 140px;
+}
+
+.byline img {
+	position: relative;
+	top: -60px;
+	height: 160px;
+}
+
+.sitelogo {
+	margin-top:25px;
+}
+
+/**
+ * Positioning
+ */
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/* figure & figcaption
+-------------------------------------------------------- 
+
+*/
+figure {
+	border:0px;
+	padding:2px;
+	margin-left:1em;
+	margin-top:0em;
+	margin-right:1em;
+	margin-bottom:1em;
+	padding-top:0em;
+	text-align:center;}
+	
+
+figcaption {
+	font-style:italic;
+	font-size:smaller;
+	padding-left:1em;}
+
+/* Other stuff
+---------------------------------------------------------
+*/
+
